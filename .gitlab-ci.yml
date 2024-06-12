@@ -1,9 +1,5 @@
 pages:
   stage: deploy
-  script:
-    - cp ./build/index.html public
   artifacts:
     paths:
-      - build
-  only:
-    - main
+      - public
